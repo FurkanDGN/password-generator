@@ -66,7 +66,7 @@ Demo Site: https://pwdgenn0nnn0.web.app/
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/password-generator.git
+    git clone https://github.com/FurkanDGN/password-generator.git
     ```
 2. Navigate to the project directory:
     ```sh
