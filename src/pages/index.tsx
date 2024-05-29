@@ -13,6 +13,7 @@ export default function Home() {
 	const [mounted, setMounted] = useState(false);
 	const {theme, setTheme} = useTheme();
 	const [isCookieSettingsOpen, setIsCookieSettingsOpen] = useState(false);
+	const googleAdsClient = process.env.NEXT_PUBLIC_GOOGLE_ADS_CLIENT;
 
 	useEffect(() => {
 		if (theme === 'system') {
@@ -30,7 +31,13 @@ export default function Home() {
 				<title>Password Generator</title>
 				<meta name="description" content="A simple password generator app" />
 				<link rel="icon" href="/favicon.ico" />
-				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4111323164503018" crossOrigin="anonymous" />
+				{googleAdsClient && (
+					<script
+						async
+						src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${googleAdsClient}`}
+						crossOrigin="anonymous"
+					/>
+				)}
 			</Head>
 			<main className="min-w-full relative" style={{ top: "calc(-31vh + 230px)" }}>
 				<div className="h-screen flex items-center justify-center">
