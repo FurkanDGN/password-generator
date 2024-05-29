@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	transition: background-color 0.3s ease;
+}
+
+.settings-icon {
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: transform 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.settings-icon span {
+	background-color: rgba(107, 114, 128, 0.7);
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	position: relative;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.settings-icon span::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -5px;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid rgba(107, 114, 128, 0.7);
+}
+
+.settings-icon:hover span {
+	opacity: 1;
+	visibility: visible;
+}
+
+.settings-icon:hover {
+	transform: scale(1.1);
+}
+
+::selection {
+	background-color: #79ffe1;
+	color: #000;
+}
+
+.transform-origin-bottom {
+	transform-origin: bottom center;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	50% { transform: rotate(200deg); } /* Exceed 360 degrees slightly */
+	100% { transform: rotate(180deg); }
+}
+
+.animate-spin {
+	animation: spin 400ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
