@@ -8,7 +8,7 @@ A Random Password Generator built using React, Next.js, NextUI, and TailwindCSS.
 
 - **Password Length**: Adjust the length of the password.
 - **Character Types**: Include or exclude uppercase letters, lowercase letters, numbers, and special characters.
-- **Theme Switcher**: Toggle between light and dark modes.
+- **Theme Switcher**: Toggle between light and dark modes, with your preference being remembered for future visits.
 - **Cookie Management**: Manage your cookie settings and preferences with ease.
 - **Persistent Preferences**: Your theme choice and other settings are saved and remembered for your next visit.
 - **Copy to Clipboard**: Easily copy the generated password.
@@ -96,7 +96,7 @@ A Random Password Generator built using React, Next.js, NextUI, and TailwindCSS.
 ## Project Structure
 
 ```plaintext
-.
+src
 ├── components
 │   ├── CookieDialog.tsx
 │   ├── CookieSettingsPopup.tsx
@@ -110,14 +110,16 @@ A Random Password Generator built using React, Next.js, NextUI, and TailwindCSS.
 │   ├── _app.tsx
 │   ├── _document.tsx
 │   └── index.tsx
-├── public
-│   ├── images
-│   │   ├── light-mode-screenshot.png
-│   │   └── dark-mode-screenshot.png
-│   └── ...
 ├── styles
 │   └── globals.css
-└── ...
+├── utils
+│   ├── generatePassword.ts
+│   └── passwordStrength.ts
+public
+├── robots.txt
+├── favicon.ico
+├── next.svg
+└── vercel.svg
 ```
 
 ## License
