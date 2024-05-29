@@ -6,6 +6,7 @@ A Random Password Generator built using React, Next.js, NextUI, and TailwindCSS.
 
 ## Features
 
+- **Modern, Simple, and User-Friendly Design**: The interface is designed to be modern, simple, and easy to use.
 - **Password Length**: Adjust the length of the password.
 - **Character Types**: Include or exclude uppercase letters, lowercase letters, numbers, and special characters.
 - **Theme Switcher**: Toggle between light and dark modes, with your preference being remembered for future visits.
