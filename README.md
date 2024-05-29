@@ -6,6 +6,22 @@ A Random Password Generator built using React, Next.js, NextUI, and TailwindCSS.
 
 Demo Site: https://pwdgenn0nnn0.web.app/
 
+## Table of Contents
+
+- [Features](#features)
+- [Screenshots](#screenshots)
+  - [Light Mode](#light-mode)
+  - [Dark Mode](#dark-mode)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+  - [Building for Production](#building-for-production)
+- [Project Structure](#project-structure)
+- [License](#license)
+- [Contact](#contact)
+
 ## Features
 
 - **Modern, Simple, and User-Friendly Design**: The interface is designed to be modern, simple, and easy to use.
