@@ -136,9 +136,7 @@ src
 │   └── passwordStrength.ts
 public
 ├── robots.txt
-├── favicon.ico
-├── next.svg
-└── vercel.svg
+└── favicon.ico
 ```
 
 ## License
