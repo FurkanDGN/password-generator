@@ -4,7 +4,7 @@
 
 A Random Password Generator built using React, Next.js, NextUI, and TailwindCSS. This application allows users to generate strong, random passwords with customizable options for length and character types. It supports light and dark themes.
 
-[Demo Site](https://pwdgenn0nnn0.web.app/)
+Demo Site: https://pwdgenn0nnn0.web.app/
 
 ## Features
 
