@@ -129,12 +129,6 @@ public
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-
-- [NextUI](https://nextui.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [Next.js](https://nextjs.org/)
-
 ## Contact
 
 - Author: [FurkanDGN](https://github.com/FurkanDGN)
